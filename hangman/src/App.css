@@ -1,0 +1,83 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/*  */
+
+
+input[type="text"] {
+  font-size: 50px;
+  width:100px;
+}
+.container {
+  display:flex;
+}
+button{
+  height: 75px;
+  width: 100px;
+  
+}
+
+.interaction-box{
+  width: 600px;
+  height:300px;
+
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  /* Additional styles for the container */
+
+  border: 1px solid #ccc; /* Example border for the box */
+}
+.wrong-letters-box{
+  display:flex;
+  width: 200px;
+  height:200px;
+}
+p{
+  font-size: 50px;
+}
+#puzzle-word{
+  font-size: 115px;
+}
+#wrong-text{
+  font-size:50px;
+}
